@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,body{    
+    font-family: 'Poppins', sans-serif;
+    background-image: url("image\backgroung.jpg");
+    background-size: cover;
+}
+::selection{
+    color: #fff;
+    background: #6665ee;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container .form{
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(173, 31, 31, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .form form .form-control{
+    height: 50px;
+    font-size: 15px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(173, 31, 31, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.container .form form .forget-pass a{
+    border-radius: 20px;
+   font-size: 15px;
+}
+.container .form form .button{
+    border-radius: 20px;
+    background: #6665ee;
+    color: #fff;
+    font-size: 17px;
+    margin: 0 auto;
+    width: 150px;
+    transition: all 0.5s ease;
+}
+.container .form form .button:hover{
+    border-radius: 20px;
+    background: #27c470;
+}
+.container .form form .link{
+    padding: 5px 0;
+}
+.container .form form .link a{
+    color: #6665ee;
+}
+.container .login-form form p{
+    font-size: 14px;
+}
+.container .row .alert{
+    font-size: 14px;
+}
+.container .form-group{
+
+    position:relative;
+}
+.form-group i{
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 17px;
+    color: #1912cc;
+        box-shadow: 0 5px 10px 0 rgba(173, 31, 31, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+button {
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(173, 31, 31, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    display: inline-block; 
+    padding: 10px 15px;
+    margin: 5px; 
+    border: 1px solid #ccc;
+    cursor: pointer; 
+  }
+  
+  .selected { 
+    background-color: #6665ee; 
+  }
+  .container-forms {
+    /* Other styles for the container */
+    position: relative; /* Required for absolute positioning of forms */
+  }
+  
+  .show-signup {
+    opacity: 1;
+    transition: translateY(-50%);
+    position: absolute; /* Ensures forms stack on top of each other */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ensures forms fill the container */
+  }
+  
+  .hide-signup {
+    opacity: 0;
+    transition: translateY(-50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+ .background-image{
+    background-image: url('background.jpg');
+    background-size: cover;
+    height: 695px;
+    width: 1536px; ;
+    
+ }
+ .login-signup-header{
+    color: #2011a9;
+    height: 50px;
+    
+ }
+  
