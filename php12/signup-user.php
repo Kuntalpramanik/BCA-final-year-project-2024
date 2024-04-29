@@ -48,17 +48,17 @@
                     
                     <div class="form-group">
                     <i class="fas fa-user"></i>
-                        <input class="form-control" type="text" name="name" placeholder="Full Name" required value="<?php echo $name ?>">
+                        <input class="form-control" type="text" name="uname" placeholder="Full Name" required value="<?php echo $uname ?>">
                     </div>
                     
                     <div class="form-group">
                     <i class="fas fa-envelope"></i>
-                        <input class="form-control" type="email" name="email" placeholder="Email Address" required value="<?php echo $email ?>">
+                        <input class="form-control" type="email" name="uemail" placeholder="Email Address" required value="<?php echo $uemail ?>">
                     </div>
                     
                     <div class="form-group">
   <i class="fas fa-user"></i>
-  <select class="form-control" id="gender" name="gender" required>
+  <select class="form-control" id="ugender" name="ugender" required>
     <option value="">Select Gender</option>
     <option value="male">Male</option>
     <option value="female">Female</option>
@@ -67,12 +67,12 @@
 
                     <div class="form-group">
                     <i class="fas fa-lock"></i>
-                      <input class="form-control" type="password" name="password" placeholder="Password" required>
+                      <input class="form-control" type="password" name="upassword" placeholder="Password" required>
                     </div>
                     
                     <div class="form-group">
                     <i class="fas fa-lock"></i>
-                        <input class="form-control" type="password" name="cpassword" placeholder="Confirm password" required>
+                        <input class="form-control" type="password" name="c_upassword" placeholder="Confirm password" required>
                     </div>
                     <div class="form-group">
                         <input class="form-control button" type="submit" name="signup"  value="Signup">

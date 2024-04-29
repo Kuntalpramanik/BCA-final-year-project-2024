@@ -1,7 +1,7 @@
 <?php require_once "controllerUserData.php"; ?>
 <?php 
-$email = $_SESSION['email'];
-if($email == false){
+$uemail = $_SESSION['uemail'];
+if($uemail == false){
   header('Location: login-user.php');
 }
 ?>

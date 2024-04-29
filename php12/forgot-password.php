@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="background-image">
+
+</div>
     <div class="container">
         <div class="row">
             <div class="col-md-4 offset-md-4 form">
@@ -30,10 +33,10 @@
                     ?>
                     <div class="form-group">
                     <i class="fas fa-envelope"></i>
-                    <input class="form-control" type="email" name="email" placeholder="Enter email address" required value="<?php echo $email ?>">
+                    <input class="form-control" type="email" name="uemail" placeholder="Enter email address" required value="<?php echo $uemail ?>">
                     </div>
                     <div class="form-group">
-                        <input class="form-control button" type="submit" name="check-email" value="Continue">
+                        <input class="form-control button" type="submit" name="check-uemail" value="Continue">
                     </div>
                 </form>
             </div>

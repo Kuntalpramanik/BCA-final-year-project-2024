@@ -1,7 +1,7 @@
 <?php require_once "controllerUserData.php"; ?>
 <?php 
-$email = $_SESSION['email'];
-if($email == false){
+$uemail = $_SESSION['uemail'];
+if($uemail == false){
   header('Location: login-user.php');
 }
 ?>
@@ -14,6 +14,8 @@ if($email == false){
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="background-image">
+ </div>
     <div class="container">
         <div class="row">
             <div class="col-md-4 offset-md-4 form">
@@ -42,13 +44,13 @@ if($email == false){
                     }
                     ?>
                     <div class="form-group">
-                        <input class="form-control" type="password" name="password" placeholder="Create new password" required>
+                        <input class="form-control" type="password" name="upassword" placeholder="Create new password" required>
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="password" name="cpassword" placeholder="Confirm your password" required>
+                        <input class="form-control" type="password" name="c_upassword" placeholder="Confirm your password" required>
                     </div>
                     <div class="form-group">
-                        <input class="form-control button" type="submit" name="change-password" value="Change">
+                        <input class="form-control button" type="submit" name="change-upassword" value="Change">
                     </div>
                 </form>
             </div>

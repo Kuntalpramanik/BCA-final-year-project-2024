@@ -31,11 +31,11 @@
                     ?>
                     <div class="form-group"> 
                     <i class="fas fa-envelope"></i>
-                        <input class="form-control" type="email" name="email" placeholder="Email Address" required value="<?php echo $email ?>">
+                        <input class="form-control" type="email" name="uemail" placeholder="Email Address" required value="<?php echo $uemail ?>">
                     </div>
                     <div class="form-group">
                         <i class="fas fa-lock"></i>
-                        <input class="form-control" type="password" name="password" placeholder="Password" required>
+                        <input class="form-control" type="password" name="upassword" placeholder="Password" required>
                     </div>
                     <div class="link forget-pass text-left"><a href="forgot-password.php">Forgot password?</a></div>
                     <div class="form-group">

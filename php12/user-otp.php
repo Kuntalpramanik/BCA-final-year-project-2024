@@ -1,7 +1,7 @@
 <?php require_once "controllerUserData.php"; ?>
 <?php 
-$email = $_SESSION['email'];
-if($email == false){
+$uemail = $_SESSION['uemail'];
+if($uemail == false){
   header('Location: login-user.php');
 }
 ?>
@@ -42,7 +42,7 @@ if($email == false){
                     }
                     ?>
                     <div class="form-group">
-                        <input class="form-control" type="number" name="otp" placeholder="Enter verification code" required>
+                        <input class="form-control" type="text" name="otp" placeholder="Enter verification code" required>
                     </div>
                     <div class="form-group">
                         <input class="form-control button" type="submit" name="check" value="Submit">
